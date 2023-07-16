@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Landing from "./Landing";
+import Landing1 from "./Landing1";
 import logosub from "./assets/logo/whisker-sub.png";
 import landing1 from "./assets/img/landing-1.png";
 
@@ -25,17 +25,16 @@ function App() {
         src={landing1}
         alt="landing1"
         style={{
+          maxWidth: "100%",
+          height: "auto",
           width: "393px",
-          height: "553px",
-
           position: "absolute",
           top: "250px",
           transform: "translate(-50%, -50%)",
           zIndex: 2,
         }}
       />
-
-      <Landing />
+      <Landing1 />
     </div>
   );
 }

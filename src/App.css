@@ -3,6 +3,13 @@
   background-color: #fbf4ee;
 }
 
+/* Apply media query to all components */
+@media (min-width: 394px) {
+  .App {
+    display: none; /* Hide the entire app container */
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,4 +43,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Media query for screens with a maximum width of 393px */
+@media (max-width: 393px) {
+  .App-header {
+    /* Adjust the styles for screens with a maximum width of 393px */
+  }
+
+  /* Add any other styles specific to this screen size */
 }
